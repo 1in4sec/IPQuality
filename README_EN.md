@@ -19,7 +19,7 @@
 - Over 400 IP address blacklist database checks
 
 ##### Screenshots
-![Screenshot](https://raw.githubusercontent.com/xykt/IPQuality/main/res/en_IPv4.svg)
+![Screenshot](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/en_IPv4.svg)
 
 ## Usage
 
@@ -45,7 +45,7 @@ docker run --rm --net=host -it xykt/check -EI & docker rmi xykt/check > NUL 2>&1
 
 ### Advanced Mode: Run with Parameters
 
-![Help](https://github.com/xykt/IPQuality/raw/main/res/help.png)
+![Help](https://github.com/1in4sec/IPQuality/raw/main/res/help.png)
 
 ##### English version of dual-stack test (Either):
 ````bash
@@ -92,7 +92,7 @@ bash <(curl -Ls https://IP.Check.Place) -Ey
 bash <(curl -Ls https://IP.Check.Place) -Ef
 ````
 
-##### JSON output ([Example Output](https://github.com/xykt/IPQuality/blob/main/res/output.json))：
+##### JSON output ([Example Output](https://github.com/1in4sec/IPQuality/blob/main/res/output.json))：
 ````bash
 bash <(curl -Ls https://IP.Check.Place) -Ej
 ````
@@ -181,8 +181,8 @@ docker run --rm --net=host -it xykt/ipquality -E & docker rmi xykt/ipquality > N
 
 | Sponsor | Logo | Link | 
 | - | - | - | 
-| IP2Location | ![ip2location_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_ip2location.png) | [https://ip2location.io](https://ip2location.io)</br>[https://ip2location.com](https://ip2location.com) | 
-| Scamalytics | ![scamalytics_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_scamalytics.png) | [https://scamalytics.com](https://scamalytics.com) | 
+| IP2Location | ![ip2location_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_ip2location.png) | [https://ip2location.io](https://ip2location.io)</br>[https://ip2location.com](https://ip2location.com) | 
+| Scamalytics | ![scamalytics_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_scamalytics.png) | [https://scamalytics.com](https://scamalytics.com) | 
 
 - Sincerely appreciate the IP threat intelligence data provided by leading providers (No ranking implied, listed in alphabetical order): [AbuseIPDB](https://www.abuseipdb.com/)/[Cloudflare](https://cloudflare.com/)/[DB-IP](https://db-ip.com/)/[IP2Location](https://www.ip2location.io/)/[ipapi](https://ipapi.is/)/[IPinfo](https://ipinfo.io/)/[IPQS](https://www.ipqualityscore.com/)/[ipregistry](https://ipregistry.co/)/[Scamalytics](https://scamalytics.com/) 
 
@@ -194,21 +194,21 @@ docker run --rm --net=host -it xykt/ipquality -E & docker rmi xykt/ipquality > N
 
 | Sponsor | Logo | Link | 
 | - | - | - |
-| V.PS | ![vps_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vps.png) | [https://v.ps](https://v.ps)| 
-| BAGE | ![bage_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_bage.png) | [https://bagevm.com](https://bagevm.com)|
-| LisaHost | ![lisa_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_lisa.png) | [https://lisahost.com](https://lisahost.com)|
-| VIRCS | ![vircs_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vircs.png) | [https://vircs.com](https://www.vircs.com/promotion?code=6)|   
-| RapidProxy</br>`ISP IP` | ![rapidproxy_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_rapidproxy.png) | [https://rapidproxy.io](https://www.rapidproxy.io/?ref=gitipquality)|   
-| VMRack | ![vmrack_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vmrack.png) | [https://vmrack.net](https://www.vmrack.net?affid=ipcheck)|   
-| YINNET | ![yinnet_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_yinnet.png) | [https://yin-net.com](https://yin-net.com)| 
-| Swiftproxy</br>`ISP IP` | ![swiftproxy_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_swiftproxy.png) | [https://swiftproxy.net](https://www.swiftproxy.net/?ref=ipquality)|  
+| V.PS | ![vps_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_vps.png) | [https://v.ps](https://v.ps)| 
+| BAGE | ![bage_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_bage.png) | [https://bagevm.com](https://bagevm.com)|
+| LisaHost | ![lisa_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_lisa.png) | [https://lisahost.com](https://lisahost.com)|
+| VIRCS | ![vircs_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_vircs.png) | [https://vircs.com](https://www.vircs.com/promotion?code=6)|   
+| RapidProxy</br>`ISP IP` | ![rapidproxy_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_rapidproxy.png) | [https://rapidproxy.io](https://www.rapidproxy.io/?ref=gitipquality)|   
+| VMRack | ![vmrack_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_vmrack.png) | [https://vmrack.net](https://www.vmrack.net?affid=ipcheck)|   
+| YINNET | ![yinnet_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_yinnet.png) | [https://yin-net.com](https://yin-net.com)| 
+| Swiftproxy</br>`ISP IP` | ![swiftproxy_logo](https://raw.githubusercontent.com/1in4sec/IPQuality/main/res/sponsor/logo_swiftproxy.png) | [https://swiftproxy.net](https://www.swiftproxy.net/?ref=ipquality)|  
 
 ##### *E-Mail: sponsor@check.place Telegram Bot: https://t.me/xythebot*
 **Only accepting merchants with long-term stable operations and good reputation*
 
 **Stars History:**
 
-![Stargazers over time](https://starchart.cc/xykt/IPQuality.svg?background=%23FFFFFF&axis=%23333333&line=%2377dd77)
+![Stargazers over time](https://starchart.cc/1in4sec/IPQuality.svg?background=%23FFFFFF&axis=%23333333&line=%2377dd77)
 
 **Daily Runs History:**
 
