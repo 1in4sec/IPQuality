@@ -4,7 +4,7 @@
 <a href="/LICENSE"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" alt="license" /></a>  
 </p>
 
-## IP Quality Check Script  -  [IP质量体检脚本 (中文)](https://github.com/xykt/IPQuality/blob/main/README.md)
+## IP Quality Check Script
 
 **Supported OS/Platform: Ubuntu | Debian | Linux Mint | Fedora | Red Hat Enterprise Linux (RHEL) | CentOS | Arch Linux | Manjaro | Alpine Linux | AlmaLinux | Rocky Linux | macOS | Anolis OS | Alibaba Cloud Linux | SUSE Linux | openSUSE | Void Linux | Windows (via Docker)**
 
@@ -196,11 +196,11 @@ docker run --rm --net=host -it xykt/ipquality -E & docker rmi xykt/ipquality > N
 | - | - | - |
 | V.PS | ![vps_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vps.png) | [https://v.ps](https://v.ps)| 
 | BAGE | ![bage_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_bage.png) | [https://bagevm.com](https://bagevm.com)|
-| LisaHost</br>丽萨主机 | ![lisa_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_lisa.png) | [https://lisahost.com](https://lisahost.com)|
-| VIRCS</br>威尔克斯 | ![vircs_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vircs.png) | [https://vircs.com](https://www.vircs.com/promotion?code=6)|   
+| LisaHost | ![lisa_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_lisa.png) | [https://lisahost.com](https://lisahost.com)|
+| VIRCS | ![vircs_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vircs.png) | [https://vircs.com](https://www.vircs.com/promotion?code=6)|   
 | RapidProxy</br>`ISP IP` | ![rapidproxy_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_rapidproxy.png) | [https://rapidproxy.io](https://www.rapidproxy.io/?ref=gitipquality)|   
 | VMRack | ![vmrack_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_vmrack.png) | [https://vmrack.net](https://www.vmrack.net?affid=ipcheck)|   
-| YINNET</br>蔭雲 | ![yinnet_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_yinnet.png) | [https://yin-net.com](https://yin-net.com)| 
+| YINNET | ![yinnet_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_yinnet.png) | [https://yin-net.com](https://yin-net.com)| 
 | Swiftproxy</br>`ISP IP` | ![swiftproxy_logo](https://raw.githubusercontent.com/xykt/IPQuality/main/res/sponsor/logo_swiftproxy.png) | [https://swiftproxy.net](https://www.swiftproxy.net/?ref=ipquality)|  
 
 ##### *E-Mail: sponsor@check.place Telegram Bot: https://t.me/xythebot*

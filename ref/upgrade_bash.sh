@@ -1,6 +1,6 @@
 #!/bin/bash
 upgrade_bash() {
-    # 检查当前的 Bash 版本
+    # Check the current Bash version.
     current_bash_version=$(bash --version | head -n 1 | awk -F ' ' '{for (i=1; i<=NF; i++) if ($i ~ /^[0-9]+\.[0-9]+\.[0-9]+/) {print $i; exit}}' | cut -d . -f 1)
     if [ "$current_bash_version" -ge 4 ]; then
         echo "Bash version is 4.0 or higher. No need to upgrade."
@@ -11,7 +11,7 @@ upgrade_bash() {
         if ! command -v brew >/dev/null 2>&1; then
             echo "Homebrew is not installed. Installing Homebrew..."
             /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-            # 添加 Homebrew 到 PATH
+            # Add Homebrew to PATH.
             eval "$(/opt/homebrew/bin/brew shellenv)"
             echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
         else
@@ -47,7 +47,7 @@ upgrade_bash() {
                     ;;
             esac
             new_bash_path=$(which bash)
-        elif [ -n "$PREFIX" ]; then  # Termux 检测
+        elif [ -n "$PREFIX" ]; then  # Termux detection
             pkg install bash
             new_bash_path=$(which bash)
         else
@@ -55,7 +55,7 @@ upgrade_bash() {
             exit 1
         fi
     fi
-    # 更改默认 shell 为新的 Bash 版本
+    # Change the default shell to the new Bash version.
     if ! grep -q "$new_bash_path" /etc/shells; then
         echo "Adding new Bash to /etc/shells..."
         echo "$new_bash_path" | sudo tee -a /etc/shells
